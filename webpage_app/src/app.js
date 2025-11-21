@@ -1,6 +1,7 @@
-import { searchCity, fetchWeather } from "./api.js";
 import { renderMessage } from "./dom.js";
+import { searchCity, fetchWeather } from "./api.js";
 
+// Grab references to various parts of the HTML page
 const cityForm = document.querySelector("#city-form");
 const cityList = document.querySelector("#city-list");
 const weatherForm = document.querySelector("#weather-form");
